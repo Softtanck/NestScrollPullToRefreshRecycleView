@@ -147,6 +147,7 @@ public class ShopPageFragment extends Fragment implements PullToRefreshBase.OnRe
             "    \"token\": \"9a851f2c-91d8-461d-95c7-1bd90ea24f4c__1479199712427\"\n" +
             "}";
 
+
     public static ShopPageFragment newInstance(int page, int id, String name) {
         Bundle args = new Bundle();
         args.putInt(ARG_PAGE, page);
